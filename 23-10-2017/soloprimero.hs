@@ -1,0 +1,1 @@
+soloprimero x _ = x

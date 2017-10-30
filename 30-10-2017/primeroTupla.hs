@@ -1,0 +1,1 @@
+primero (x,_) = x

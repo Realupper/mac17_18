@@ -1,0 +1,1 @@
+divisores y = [x|x<-[1..y], mod y x ==0]

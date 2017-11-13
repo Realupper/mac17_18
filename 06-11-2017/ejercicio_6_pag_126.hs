@@ -6,20 +6,10 @@ evaluaciones::[a]->[(a->b)]->[[b]]
 evaluaciones a b = [[n x|n<-b] | x<-a] 
 
 
-igualacero::[a]->Bool
-igualacero x = 
-
-mayorquecero::[a]->Bool
-mayorquecero x= x>0
+comparaciones x = [[(!!)n 0 >0, (!!)n 1 ==0, (!!)n 2==0] |n<-x ]
 
 
 
-comparaciones::[a]->[Bool]
-comparaciones x = [evaluaciones n [igualacero, mayorquecero, mayorquecero]|n<-x]
+-- Linea de codigo a ejecutar en terminal
 
-
-(comparaciones . evaluaciones [0,(3.14/2),((-3.14)/2),3.14,(-3.14)]) [sin,cos,tan]
-
-
-
---evaluaciones [0,(3.14/2),((-3.14)/2),3.14,(-3.14)] [sin,cos,tan]
+--(comparaciones . evaluaciones [0,(3.14/2),((-3.14)/2),3.14,(-3.14)]) [sin,cos,tan]

@@ -1,5 +1,6 @@
-divisores y = [x|x<-[1..y], mod y x ==0]
-primo y = divisores y==[1,y]
+doble x = 2*x
+triple x= 3*x
+
 
 evaluaciones::[a]->[(a->b)]->[[b]]
-evaluaciones a b = 
+evaluaciones a b = [[n x|n<-b] | x<-a] 

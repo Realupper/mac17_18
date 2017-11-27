@@ -1,0 +1,23 @@
+Game in haskell
+
+	https://github.com/elisehuard/game-in-haskell
+	Needs Cabal sandbox
+		http://coldwa.st/e/blog/2013-08-20-Cabal-sandbox.html
+	Thoughts and Evaluation:
+As easy as understanding the code and changing some things from the game
+
+
+
+Mining Bitcoin in Haskell
+	
+	https://hackage.haskell.org/package/network-bitcoin-1.8.1/docs/Network-Bitcoin-Mining.html
+	https://github.com/haskoin/haskoin
+	
+	Thoughts and Evaluation:
+Just understanding the code and explaining it
+
+
+Implement AQ algorithm in Haskell
+
+	Thoughts and Evaluation:
+Full algorithm implementation and testing with some examples. 

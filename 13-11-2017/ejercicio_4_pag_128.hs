@@ -1,3 +1,5 @@
+module Ejercicio4 where
+
 esConjunto [] =True			
 esConjunto conjunto1 = if(pertenece (head(conjunto1)) (tail(conjunto1))==True) then False
 						else esConjunto (tail(conjunto1))

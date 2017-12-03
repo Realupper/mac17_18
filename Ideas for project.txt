@@ -21,3 +21,4 @@ Implement AQ algorithm in Haskell
 
 	Thoughts and Evaluation:
 Full algorithm implementation and testing with some examples. 
+
